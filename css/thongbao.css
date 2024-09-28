@@ -1,0 +1,38 @@
+.fa-regular{
+    color: #666;
+    font-size: small;
+}
+.details span{
+    color: #999;
+    font-size: small;
+}
+.news-section{
+    margin-left: 20px;
+}
+
+.details{
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.news-section h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.news-section h4{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.news-section{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+p{
+    color: #999;
+    margin-top: 5px;
+    font-size: 14px;
+}

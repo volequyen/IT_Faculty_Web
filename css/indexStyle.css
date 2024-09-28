@@ -1,0 +1,119 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.line-default {
+    margin-top: 5px;
+    background-color:#0a67af;
+    height: 4px;
+    width: 100%;
+}
+
+.header {
+    background-color:white;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-img {
+    width: 70px;
+    height: 70px; 
+}
+
+.input-box{
+    position: relative;
+    margin-top: 10px;
+}
+.input-box input[type="text"] {
+    width: 100%;
+    height: 30px;
+    padding: 10px 40px 10px 20px; 
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.search-icon {
+    position: absolute;
+    top: 18%;
+    right: 10px; 
+    transform: translateY(-50%); 
+    color:#ccc; 
+    font-size: 15px;
+    font-weight: 10px; 
+}
+
+.uni{
+    margin-bottom: 0;
+    color: #418ac9;
+    font-size: 18px;
+    font-weight: 10px;
+}
+
+.faculty{
+    color:#0a67af;
+    font-size: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.list-item{
+    list-style: none;
+    display: flex;
+    margin-left: 150px;
+    padding-left: 0;
+}
+.item{
+    margin-right: 40px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.item:hover{
+    border-bottom: 5px solid #075794;
+    color:#075794;
+    cursor: pointer;
+}
+
+.chosen{
+    display: flex;
+    background-color: #e8e8e8;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.chosen a{
+    text-decoration: none;
+    font-weight: 100;
+    color: black;
+    font-size: small;
+    margin-left: 5px;
+}
+
+.chosen a:hover{
+    color: #075794;
+}
+
+.container{
+    margin-left: 150px;
+    margin-right: 150px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/form2Style.css">
+    <title></title>
+</head>
+<body>
+    <form name = "form2" action="" method="">
+        <div class="row row1">
+            <B>VÍ DỤ VỀ TẠO FORM</B>
+        </div>
+        <div class="row row2">
+                <label for="">Text box:</label>
+                <input type="text" name="textbox" id="textbox"> 
+        </div>
+        <div class="row row3">
+                <label for="">Text Area:</label>
+                <textarea name="textarea" id="" cols="20" rows="2"></textarea>
+        </div>
+        <div class="row row4">
+                <label for="">File box:</label>
+                <div class="wrapper">
+                  <input type="text" name="filepath" id="filepath" style="margin-left: 0">
+                  <input type="File" name="file" id="file" style="margin: 0;">       
+                </div>          
+        </div>
+        <div class="row row5">
+            <input type="radio" name="radio" id="radio"> 
+            <label for="">Radio button</label>
+        </div>
+        <div class="row row6">
+            <input type="checkbox" name="checkbox" id="checkbox"> 
+            <label for="">Radio button</label>
+        </div>
+        <div class="row row7">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+        
+    </form>
+</body>
+<script>
+    const fileInput = document.getElementById('file');
+    const filePathInput = document.getElementById('filepath');
+  
+    fileInput.addEventListener('change', function() {
+      if (this.files.length > 0) {
+        filePathInput.value = this.files[0].name;
+      } else {
+        filePathInput.value = '';
+      }
+    });
+  </script>
+  
+</html>
+

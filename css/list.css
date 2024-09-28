@@ -1,0 +1,38 @@
+body{
+    margin-left: 0;
+}
+a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.list{
+    list-style: none;
+    padding: 10px;
+    margin:0;
+}
+
+.item{
+    padding: 10px;   
+    border-bottom: 1px dashed #c9c9c9;
+}
+.item h4{
+    color: #075794;
+    margin: 0;
+}
+.item:hover{
+    background-color: #075794;
+    border-color: #e6e6e6;
+    color: white;
+    cursor: pointer;
+}
+.item:hover a {
+    color: white;
+}
+.box{
+    width: 280px;
+    height: 280px;
+    border: 1px solid #c9c9c9;
+    margin-left: 50px;
+}

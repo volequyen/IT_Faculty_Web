@@ -1,0 +1,43 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box {
+    width: 1000px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    animation: marquee 5s linear infinite;
+}
+
+.welcome {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 10px;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%); 
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

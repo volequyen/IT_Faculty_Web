@@ -1,0 +1,11 @@
+
+body,html{
+    color: white;
+    background-color: #0a67af;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}

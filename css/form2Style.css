@@ -1,0 +1,72 @@
+body, html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 300px;
+    margin-top: 50px;
+}
+
+form {
+    background-color: aquamarine;
+    width: 600px;
+    padding: 20px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.row1 {
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-bottom: 20px;
+    color: red;
+}
+
+input[type="text"], 
+textarea, 
+input[type="file"] {
+    width: 50%; 
+    padding: 5px;
+}
+
+input[type="submit"], 
+input[type="reset"] {
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.row7 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input[type="file"] {
+    color: transparent; 
+}
+
+label {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.row5, .row6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; 
+
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.wrapper {
+    display: flex;
+}
